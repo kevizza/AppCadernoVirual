@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirual1.MainPage"
+             BackgroundColor="	#1C1C1C">
+
+    <StackLayout>
+        <Frame BackgroundColor="#800000" Padding="60" CornerRadius="0">
+            <Label Text="Caderno Virtual" 
+                   HorizontalTextAlignment="Center" 
+                   TextColor="White" 
+                   FontSize="50" 
+                   FontAttributes="Bold"/>
+        </Frame>
+        
+        <Button Text="1ºano" TextColor="White" 
+                Clicked="Button_Clicked" 
+                CornerRadius="10"
+                Margin="20"
+                BackgroundColor="#800000"/>
+        
+        <Button Text="2ºano" 
+                TextColor="White" 
+                Clicked="Button_Clicked_1" 
+                Margin="20"
+                CornerRadius="10" 
+                BackgroundColor="#B22222"/>
+        
+        <Button Text="3ºano" 
+                TextColor="White" 
+                Clicked="Button_Clicked_2" 
+                Margin="20"
+                CornerRadius="10" 
+                BackgroundColor="#A52A2A"/>
+    </StackLayout>
+
+</ContentPage>
