@@ -6,27 +6,23 @@
 
     <StackLayout>
         <Frame BackgroundColor="#800000" Padding="60" CornerRadius="0">
-            <Label Text="Caderno Virtual" 
-                   HorizontalTextAlignment="Center" 
-                   TextColor="White" 
-                   FontSize="50" 
-                   FontAttributes="Bold"/>
+            <Image Source="a.png" />
         </Frame>
         
-        <Button Text="1ºano" TextColor="White" 
+        <Button Text="Caderno 1ºano" TextColor="White" 
                 Clicked="Button_Clicked" 
                 CornerRadius="10"
                 Margin="20"
                 BackgroundColor="#800000"/>
         
-        <Button Text="2ºano" 
+        <Button Text="Caderno 2ºano" 
                 TextColor="White" 
                 Clicked="Button_Clicked_1" 
                 Margin="20"
                 CornerRadius="10" 
                 BackgroundColor="#B22222"/>
-        
-        <Button Text="3ºano" 
+
+        <Button Text="Caderno 3ºano" 
                 TextColor="White" 
                 Clicked="Button_Clicked_2" 
                 Margin="20"
