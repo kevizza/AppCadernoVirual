@@ -16,5 +16,10 @@ namespace AppCadernoVirual1.Primeiro
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new PrimeiroAno());
+        }
     }
 }

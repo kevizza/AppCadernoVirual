@@ -19,7 +19,7 @@ namespace AppCadernoVirual1.Terceiro
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new MainPage());
+            Navigation.PushModalAsync(new TerceiroAno());
         }
     }
 }

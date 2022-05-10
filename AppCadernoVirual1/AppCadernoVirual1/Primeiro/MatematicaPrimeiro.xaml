@@ -6,7 +6,8 @@
         <StackLayout>
             <StackLayout>
                 <Label Text="GEOMETRIA" FontSize="20"/>
-                <Label Text="Proporcionalidade| Teorema de Tales                    Semelhança de triângulos| Relações métricas no 
+                <Label Text="Proporcionalidade| Teorema de Tales
+                    Semelhança de triângulos| Relações métricas no 
                     triângulo retângulo"/>
                 <Label Text="ÁLGEBRA E FUNÇÕES" FontSize="20" />
                 <Label Text="Construção e análise de Gráficos
